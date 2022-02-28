@@ -1,1 +1,16 @@
 
+
+
+/** https://csswizardry.com/2012/06/single-direction-margin-declarations/
+Single direction margin declaration
+*/
+
+h1,h2,h3,h4,h5,h6,hgroup,
+ul,ol,dd,
+p,figure,
+pre,table,fieldset,hr{
+    margin-bottom:1.5rem;
+}
+
+/**BOX SIZING*/
+* {box-sizing: border-box;}
