@@ -1,1 +1,176 @@
+.width-100percent {
+    width: 100vw;
+}
 
+.width_50percent {
+    width: 50%;
+}
+
+.header_height {
+    height: 8.88vh;
+}
+
+.logo_and_name {
+    height: 5.55vh;
+    width: 11.25vw;
+    position: relative;
+    left: 1.87vw;
+    top: 1.66vh;
+}
+
+.height_wout_footer_header {
+    height: 88.89vh;
+}
+
+.container1 {
+    float: left;
+}
+
+.clearfix:after {
+  content:  "";
+  display:  table;
+  clear:    both;
+}
+
+.marketing-container{
+    width: 100%;
+    height: 100%;  
+}
+
+        .marketing_text {
+          width: 33vw;
+          height: 40vh;
+          position: relative;
+          left: 8.12vw;
+          top: 15.55vh;
+          text-align: left;
+          font-family: 'Montserrat';
+          font-weight: bold;
+          font-size: 3.33vh;
+          line-height: 4.44vh;
+          letter-spacing: 0px;
+          color: #FFFFFF;
+          opacity: 1;
+          padding-top: 6.88vh;
+          padding-left: 4.3vw;
+        }
+
+         
+
+            .advantage {
+                margin-bottom: 6.88vh;
+                width: 24.37vw;
+            }
+
+
+                .marketing_text > i { 
+                    font-size: 2vh;
+                    color: #FFFFFF;
+                    line-height: 2vh;
+                    }
+
+                .i, .text {display: inline-block;}
+
+
+.container2 {
+    float: right;
+    height: 88.89vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+        .data-collector-box {
+            width: 33.75vw;
+            height: 60vh;
+            background-color: white;
+            border-radius: 15px;
+            opacity: 1;
+            padding-top: 6.66vh;
+            padding-right: 3.74vw;
+            padding-left: 3.74vw;
+            
+        }
+
+            .addressing_the_user {
+                text-align: left;
+                font: normal normal bold 4.44vh/5.55vh Montserrat;
+                letter-spacing: 0px;
+                color: #211138;
+                opacity: 1;
+                width: 100%;
+                height: 11.11vh;
+                white-space: nowrap;
+                margin-bottom: 1.66vh;
+            }
+
+            .data_collector_cell_width {width: 26.25vw;}
+            .data_collector_cell_height {
+                height: 5.55vh;
+                margin-top: 1.66vh;
+                margin-bottom: 0;
+            }
+
+        .grey_square_box {
+            background: #F4F3F5 0% 0% no-repeat padding-box;
+            opacity: 1;
+            text-align: left;
+            font: normal normal bold 1.5vh/2vh Montserrat;
+            letter-spacing: 0px;
+            color: #211138;
+            opacity: 0.25;
+        }
+
+        .grey_square_box > p {
+            position: relative;
+            top: 1.77vh;
+            left: 1.5vw;
+        }
+
+        .support_item {
+            height: 1.66vh;
+            text-align: right;
+            font: normal normal bold 1.33vh/1.66vh Montserrat;
+            font-weight: bold;
+            letter-spacing: 0.15vw;
+            color: #6200EA;
+            text-transform: uppercase;
+            opacity: 1;
+            margin-top: 1.11vh;
+            margin-bottom: 1.66vh;
+        }
+
+        .blue_round_box {
+            background: #6200EA 0% 0% no-repeat padding-box;
+            border: 2px solid #6200EA;
+            border-radius: 24px;
+            opacity: 1;
+            margin-top: 2vh;
+            margin: auto;
+            color: #FFFFFF;
+        }
+
+        .white_round_box {
+            border: 2px solid #6200EA;
+            border-radius: 24px;
+            opacity: 1;
+            margin: auto;
+            margin-top: 2vh;
+            color: #6200EA;
+        }
+
+        .blue_round_box > p, .white_round_box > p {
+            text-align: center;
+            font: normal normal bold 1.33vh/1.66vh Montserrat;
+            letter-spacing: 0.15vw;
+            text-transform: uppercase;
+            opacity: 1;
+        }
+
+
+.footer {
+    margin-top: 0;
+    position: fixed;
+    bottom: 0;
+}

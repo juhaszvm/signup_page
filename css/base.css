@@ -13,4 +13,12 @@ pre,table,fieldset,hr{
 }
 
 /**BOX SIZING*/
+
 * {box-sizing: border-box;}
+
+
+.blue-background {
+    background-color: #6200EA;
+}
+
+html {height: 100%;}
