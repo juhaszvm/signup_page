@@ -1,34 +1,258 @@
+/*+
+*Áttekintés
+**
+*Ez a fájl írja le az oldal komponenseinek tulajdonságait,
+*beleértve a belső elrendezést, a betútípust, a színeket, a media queriket,
+*a linkek pseudo classjait.
+*/
+
+
+/*
+*Tartalomjegyzék
+*
+*1.Gombok
+*
+*2.Marketing-konténer
+*
+*3.Data-collector
+*
+*4.Footer
+*/
 
 
 
 
-.footer {
-    background-color: #211138;
-    font-family: 'Montserrat';
-	font-weight: bold;
-	font-size: 0.66rem;
-    height: 11.11vh;
-    width: 100%;
-    letter-spacing: 0.14vw;
-	color: #B2ACBA;
-	text-transform: uppercase;
-	line-height: 2.283vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+/*------------------------------------*\
+  #GOMBOK
+\*------------------------------------*/
+
+.buttons {
+    text-align:         center;
+    font:               normal normal bold 1.33vh/1.66vh Montserrat;
+    letter-spacing:     0.15vw;
+    text-transform:     uppercase;
+    opacity:            1;
 }
+
+        .blue_round_box {
+            display:        block;
+            background:     #6200EA 0% 0% no-repeat padding-box;
+            border:         2px solid #6200EA;
+            border-radius:  24px;
+            opacity:        1;
+            margin-top:     2vh;
+            margin:         auto;
+            color:          #FFFFFF;
+        }
+
+        .white_round_box {
+            display:        block;
+            border:         2px solid #6200EA;
+            border-radius:  24px;
+            opacity:        1;
+            margin:         auto;
+            margin-top:     2vh;
+            color:          #6200EA;
+        }
+
+
+
+
+
+/*------------------------------------*\
+  #MARKETING-KONTÉNER
+\*------------------------------------*/
+
+.container1 {
+    position:           relative;
+    background-color:   #6200EA;
+}
+
+.marketing-container {
+    width:      100%;
+    height:     100%;  
+}
+
+.marketing_text {
+          position:         absolute;
+          top:              50%; 
+          left:             50%; 
+          transform:        translate(-50%, -50%);
+          text-align:       left;
+          font-family:      'Montserrat';
+          font-weight:      bold;
+          font-size:        3.33vh;
+          line-height:      4.44vh;
+          letter-spacing:   0px;
+          color:            #FFFFFF;
+          opacity:          1;
+          padding-top:      6.88vh;
+          padding-left:     4.3vw;
+        }
+
+            .logo_and_name {
+                height:     5.55vh;
+                width:      11.25vw;
+                position:   relative;
+                left:       1.87vw;
+                top:        1.66vh;
+            }
+
+            .advantage {
+                margin-bottom:  6.88vh;
+                width:          24.37vw;
+            }
+
+            .advantage:last-child {margin-bottom: 0;}
+
+
+                .icon-wrapper,
+                .marketing-text {display: inline-block;}
+
+                .marketing_text {
+                          width:    33vw;
+                              }
+
+                .icon-wrapper {
+                    width:              2.5vw;
+                    height:             2.5vw;
+                    border:             0;
+                    background-color:   #FFFFFF;
+                    border-radius:      50%;
+                    opacity:            1;
+                    text-align:         center;
+                    margin-right:       1.25vw;
+                    padding:            0.8vw 0;
+                }
+
+                .icon { 
+                    font-size:          2.22vh;
+                    color:              #6200EA;
+                    line-height:        2.22vh;
+                    }
+
+
+/*------------------------------------*\
+  #DATA-COLLECTOR
+\*------------------------------------*/
 
 .container2 {
-    background-image: url(../assets/cover_photo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: luminosity;
-    opacity: 1;
-    background-color: white;
-    
+    background-image:       url(../assets/cover_photo.jpg);
+    background-repeat:      no-repeat;
+    background-size:        cover;
+    background-position:    center;
+    background-blend-mode:  luminosity;
+    opacity:                1;
+    background-color:       white;
+    display:                flex;
+    justify-content:        center;
+    align-items:            center;
+    padding:                0;
 }
 
+        .data-collector-box {
+            width:              33.75vw;
+            height:             33.75vw;
+            background-color:   white;
+            border-radius:      15px;
+            opacity:            1;
+            padding:            6.66vh 3.75vw 7.22vh;
+            
+        }
+
+            .addressing_the_user {
+                width:              100%;
+                height:             11.11vh;
+                text-align:         left;
+                font:               normal normal bold 4.44vh/5.55vh Montserrat;
+                letter-spacing:     0px;
+                color:              #211138;
+                opacity:            1;
+                white-space:        nowrap;
+                margin-bottom:      1.66vh;
+            }
+
+            .data_collector_cell_width {width: 26.25vw;}
+            .data_collector_cell_height {
+                height:         5.55vh;
+                margin-top:     1.66vh;
+                margin-bottom:  0;
+            }
+
+                    .grey_square_box {
+                        background:     #F4F3F5 0% 0% no-repeat padding-box;
+                        opacity:        1;
+                        text-align:     left;
+                        border:         0;
+                        width:          26.25vw;
+                        height:         5.55vh;
+                        margin-top:     1.66vh;
+                        margin-bottom:  0;
+                        display:        block;
+                        border:         0; 
+                        border-bottom:  0.3333vh solid;
+                        border-color:   transparent;
+                        outline:        none;
+                        padding:        1.7778vh 0 1.4444vh 1.5vw;
+                    }
 
 
+
+                .grey_square_box::placeholder {
+                    font-weight:        bold;
+                    letter-spacing:     0px;
+                    color:              #211138;
+                    opacity:            0.25;
+                    font-size:          2vh;
+                    line-height:        2vh;
+                    font-family:        'Montserrat';
+                }
+
+                .grey_square_box:nth-of-type(2) { margin-bottom: 1.1111vh; }
+                .grey_square_box:focus { border-bottom-color: #6200ea; }
+
+
+        .support_item { 
+            height: 1.66vh;
+            text-align:     right;
+            font:           normal normal bold 1.33vh/1.66vh Montserrat;
+            font-weight:    bold;
+            letter-spacing: 0.15vw;
+            color:          #6200EA;
+            text-transform: uppercase;
+            opacity:        1;
+            margin-bottom:  3.33vh;
+        }
+
+                  .buttons {
+                            width: 26.25vw;
+                            height: 5.55vh;   
+                        }
+
+
+
+
+
+/*------------------------------------*\
+  #FOOTER
+\*------------------------------------*/
+.footer {
+    background-color:  #211138;
+    font-family:      'Montserrat';
+	font-weight:       bold;
+	font-size:         0.66rem;
+    height:            11.11vh;
+    width:             100%;
+    letter-spacing:    0.14vw;
+	color:             #B2ACBA;
+	text-transform:    uppercase;
+	line-height:       2.283vh;
+    display:           flex;
+    align-items:       center;
+    justify-content:   center;
+    margin-top:        0;
+    position:           fixed;
+    bottom:            0;
+}
 

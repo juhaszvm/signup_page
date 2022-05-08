@@ -1,24 +1,65 @@
-
-
-
-/** https://csswizardry.com/2012/06/single-direction-margin-declarations/
-Single direction margin declaration
+/**
+*áttekintés
+*
+*base.css............globális szabályok
+*components.css......komponensek saját CSS fájlja
+*layout.css..........az elrendezések szabályai
+*normalize.min.css...kibővített CSS reset
 */
 
-h1,h2,h3,h4,h5,h6,hgroup,
-ul,ol,dd,
-p,figure,
-pre,table,fieldset,hr{
-    margin-bottom:1.5rem;
-}
 
-/**BOX SIZING*/
+/*Tartalomjegyzék
+*
+*Beállítások
+*Box-sizing..........globális alapbeállítás
+*Base font-size......az alapbetűméret megadása
+*Margin..............Top és bottom margin globális értékek megadása
+*Anchor..............Linkek alapbeállításai
+*
+*Tipográfia
+*Headingek...........Tipográfiai stílusok
+*/
+
+
+
+
+
+/*-----------------------*\
+#Beállítások
+\*-----------------------*/
+html {height: 100%;}
 
 * {box-sizing: border-box;}
 
+html { font-size:  14px;}
 
-.blue-background {
-    background-color: #6200EA;
+h2, h6,
+p,
+ul {
+margin: 0;}
+
+h2, h6 {
+  margin-bottom: 1.6666vh; 
 }
 
-html {height: 100%;}
+
+a {
+  text-decoration:  none;
+  cursor:           pointer;
+}
+
+
+
+
+
+/*-----------------------*\
+#Tipográfia
+\*-----------------------*/
+
+body {
+  color:        #211138;
+  font-family:  'Montserrat', sans-serif;
+}
+
+
+h2 { font-size: 4.4444vh; }
